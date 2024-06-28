@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_practica_1/pages/home_page.dart';
 import 'package:flutter_practica_1/pages/moedas_page.dart';
 
 class meuAplicativo extends StatelessWidget {
@@ -7,12 +8,12 @@ class meuAplicativo extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: "Moedasbase",
+      title: "Cripto Moedas",
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
         primarySwatch: Colors.green,
       ),
-      home: MoedasPage(),
+      home: HomePage(),
     );
   }
 }
